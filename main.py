@@ -1,6 +1,7 @@
 import cv2 as cv
 import numpy as np
 
+
 frame_width, frame_height = 640, 480
 cap = cv.VideoCapture(0)
 cap.set(3, frame_width)
